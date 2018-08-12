@@ -32,6 +32,10 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     
+    <!-- Script til menu -->
+       <script src="https://code.jquery.com/jquery-1.10.2.js"></script>    
+
+
     <!-- Load the menu file -->
     <script>
 	function menu() {
@@ -46,9 +50,19 @@
   <body onload="menu()">
 
     <!-- Static navbar -->
-<?
-php include 'navbar.php';
-?>
+<!--Navigation bar-->
+<div id="nav-placeholder">
+
+</div>
+
+<script>
+$(function(){
+  $("#nav-placeholder").load("nav.html");
+});
+</script>
+
+<!--end of Navigation bar-->
+
 <!--    <nav class="navbar navbar-default navbar-static-top">
       <div class="container">
         <div class="navbar-header">
