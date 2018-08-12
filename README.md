@@ -1,1 +1,1 @@
-Dette er en prøve på om jeg kan få det til at virke.
+﻿﻿﻿﻿﻿This is my first try to make a homepage through GitHub.I will be working with stylesheets and see if I can be ready to attend FabAcademy in 2019.Kim Torp Petersen
