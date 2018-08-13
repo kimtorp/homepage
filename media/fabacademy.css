@@ -52,7 +52,8 @@ legend {
   margin:3px; text-align:center;width:100%
   display: block;
   padding: 4px;
-  width: 940px;
+  max-width: 480px;
+  max-height: auto;
   line-height: 1;
  /*  border: 1px solid #ddd;
   -webkit-border-radius: 14px;
